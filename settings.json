@@ -25,6 +25,7 @@
     "terminal.ansiGreen": "#11b80b",
     "terminal.ansiYellow": "#a63ed6",
     "terminal.ansiBlack": "#000000",
+
     "terminal.ansiBlue": "#35fafa",
     "breadcrumb.background": "#192127", // directory at the top
     "contrastBorder": "#26323b" // seperation borders
