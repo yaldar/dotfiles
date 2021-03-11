@@ -1,0 +1,39 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "cmd+i",
+    "command": "editor.action.format"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "eslint.executeAutofix"
+  },
+  {
+    "key": "cmd+y",
+    "command": "redo"
+  },
+  {
+    "key": "shift+cmd+z",
+    "command": "-redo"
+  },
+  {
+    "key": "cmd+l",
+    "command": "notebook.formatCell",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-notebook.formatCell",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && inCompositeEditor && notebookEditable && !editorReadonly && activeEditor == 'workbench.editor.notebook'"
+  },
+  {
+    "key": "cmd+l",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  }
+]
