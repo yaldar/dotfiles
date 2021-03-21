@@ -97,12 +97,12 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-function addc() {
+function gitac() {
     git add .
     git commit -a -m "$1"
 }
 
-function addcp() {
+function gitacp() {
     git add .
     git commit -a -m "$1"
     git push
