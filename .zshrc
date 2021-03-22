@@ -102,6 +102,7 @@ function gitac() {
     git commit -a -m "$1"
 }
 
+
 function gitacp() {
     git add .
     git commit -a -m "$1"
