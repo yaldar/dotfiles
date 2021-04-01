@@ -1,104 +1,98 @@
 {
-  "editor.tokenColorCustomizations": {
-    "strings": "#f7ecec",
-    "comments": "#f0b4b4",
-    "functions": "#04f7ff",
-    "types": "#a07ffc"
-  },
-  "prettier.arrowParens": "always",
-  "editor.semanticHighlighting.enabled": true,
-  "workbench.colorCustomizations": {
-    "statusBar.background": "#1aa3a3", // lower bar color
-    "statusBar.foreground": "#1f1e1e", // lower bar text
-    "editor.lineHighlightBorder": "#506aa37c", // border for current line
-    "editor.lineHighlightBackground": "#ff000000", // highlight for current line
-    "editor.selectionBackground": "#ffaea31f", // double click or area select
-    "editor.selectionHighlightBackground": "#56c9c936", //double click but color on other words
-    "editor.wordHighlightBackground": "#eb85ff25", // single click on other words
-    "activityBar.foreground": "#60c2bd", // left bar icons
-    "focusBorder": "#77e6ca", // broder of active searchbox/area
-    "tab.activeBorderTop": "#00fff2", // top of current active tab
-    "editor.background": "#181f25", // background for entire editor
-    "terminal.background": "#09242c",
-    "terminal.foreground": "#2ab7da",
-    "terminal.border": "#5ed5f3",
-    "terminal.ansiGreen": "#11b80b",
-    "terminal.ansiYellow": "#a63ed6",
-    "terminal.ansiBlack": "#000000",
-    "terminal.ansiBlue": "#35fafa",
-    "breadcrumb.background": "#192127", // directory at the top
-    "contrastBorder": "#26323b" // seperation borders
-  },
-  "material-icon-theme.folders.theme": "classic",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.suggestSelection": "first",
-  // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "editor.detectIndentation": false,
-  "files.autoSaveDelay": 500,
-  "editor.tabSize": 2,
-  "liveServer.settings.donotVerifyTags": true,
-  "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
-  "bracket-pair-colorizer-2.colorMode": "Independent",
-  "bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
-  "explorer.confirmDelete": false,
+    "editor.tokenColorCustomizations": {
+      "strings": "#f7ecec",
+      "comments": "#f0b4b4",
+      "functions": "#04f7ff",
+      "types": "#a07ffc"
+    },
 
-  "diffEditor.ignoreTrimWhitespace": true,
-  "files.trimTrailingWhitespace": true,
-  "prettier.useTabs": false,
-  "prettier.bracketSpacing": true,
-  "prettier.singleQuote": true,
-  "prettier.jsxSingleQuote": false,
-  "prettier.trailingComma": "all",
-  "editor.minimap.enabled": false,
-  "editor.wordWrap": "on",
-  "prettier.printWidth": 120,
-  "workbench.iconTheme": "material-icon-theme",
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.cursorWidth": 2,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "editor.insertSpaces": true,
-  "editor.comments.insertSpace": true,
-  "git.autofetch": true,
-  "gitlens.currentLine.enabled": false,
-  "gitlens.codeLens.authors.enabled": false,
-  "gitlens.codeLens.recentChange.enabled": false,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+    "editor.semanticHighlighting.enabled": true,
+    "workbench.colorCustomizations": {
+      "statusBar.background": "#1aa3a3", // lower bar color
+      "statusBar.foreground": "#1f1e1e", // lower bar text
+      "editor.lineHighlightBorder": "#506aa37c", // border for current line
+      "editor.lineHighlightBackground": "#ff000000", // highlight for current line
+      "editor.selectionBackground": "#ffaea31f", // double click or area select
+      "editor.selectionHighlightBackground": "#56c9c936", //double click but color on other words
+      "editor.wordHighlightBackground": "#eb85ff25", // single click on other words
+      "activityBar.foreground": "#60c2bd", // left bar icons
+      "focusBorder": "#77e6ca", // broder of active searchbox/area
+      "tab.activeBorderTop": "#00fff2", // top of current active tab
+      "editor.background": "#181f25", // background for entire editor
+      "terminal.background": "#09242c",
+      "terminal.foreground": "#2ab7da",
+      "terminal.border": "#5ed5f3",
+      "terminal.ansiGreen": "#11b80b",
+      "terminal.ansiYellow": "#a63ed6",
+      "terminal.ansiBlack": "#000000",
+      "terminal.ansiBlue": "#35fafa",
+      "breadcrumb.background": "#192127", // directory at the top
+      "contrastBorder": "#26323b" // seperation borders
+    },
+    "material-icon-theme.folders.theme": "classic",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.suggestSelection": "first",
+    // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.detectIndentation": false,
+    "files.autoSaveDelay": 500,
+    "editor.tabSize": 2,
+    "liveServer.settings.donotVerifyTags": true,
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": true,
+    "bracket-pair-colorizer-2.colorMode": "Independent",
+    "bracket-pair-colorizer-2.colors": ["Gold", "Orchid", "LightSkyBlue"],
+    "explorer.confirmDelete": false,
 
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "editor.acceptSuggestionOnCommitCharacter": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.fontSize": 13.5,
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "explorer.confirmDragAndDrop": false,
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
-  "workbench.colorTheme": "City Lights",
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  // "editor.renameOnType": true,
-  "[java]": {
-    "editor.defaultFormatter": "redhat.java"
-  },
-  "python.languageServer": "Pylance",
-  "liveshare.authenticationProvider": "GitHub"
-}
+    "diffEditor.ignoreTrimWhitespace": true,
+    "files.trimTrailingWhitespace": true,
+
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+    "prettier.useTabs": false,
+    "prettier.arrowParens": "always",
+    "prettier.bracketSpacing": true,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": false,
+    "prettier.trailingComma": "all",
+    "prettier.printWidth": 120,
+
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+
+
+    "editor.fontFamily": "'Fira Code', 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.insertSpaces": true,
+    "editor.comments.insertSpace": true,
+    "git.autofetch": true,
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.recentChange.enabled": false,
+
+
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.fontSize": 13.5,
+    "explorer.confirmDragAndDrop": false,
+    "files.exclude": {
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "workbench.colorTheme": "City Lights",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    // "editor.renameOnType": true,
+
+  }
+
